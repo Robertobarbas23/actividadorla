@@ -1,0 +1,104 @@
+*{
+  --background-color: #0c0c0c;
+  --text-color: #f5f1f1;
+  --image-border-radius: 50%;
+  --image-width: 150px;
+  --image-height: 150px;
+  --margin: 10px;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Times New Roman', Times, serif;
+  /* 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  */
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: grey;
+  color: rgb(21, 2, 2);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+ 
+  /* Ajusta el tamaño del logo según tus necesidades */
+
+}
+
+.profesores{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em;
+}
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em;
+  
+}
+
+.miembro {
+ 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(121, 163, 8, 0.1);
+  flex: 1;
+  min-width: 200px;
+}
+
+.miembro img {
+  width: var(--image-width);
+  height: var(--image-height);
+  margin: 0 auto var(--margin);
+  border: solid 5px #000000;
+  display: block;
+  border-radius: 3em;
+  border-color: rgb(232, 145, 15);
+ 
+}
+
+.miembro h3 {
+  color: var(--text-color);
+  font-size: 1.2em;
+}
+
+.miembro p {
+  color: var(--text-color);
+}
+
+h1{
+  text-align: justify;
+  font-size: 60px;
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(7, 10, 9); 
+  border: solid 10px rgb(0, 0, 0); 
+  border-top: 400px;
+  border-bottom-right-radius: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
